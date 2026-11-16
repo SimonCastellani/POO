@@ -1,14 +1,16 @@
 # Trabajos prácticos de programación orientada a objetos
 
-Soluciones en C# para Visual Studio 2022 con .NET 9.
+Soluciones en Java para Visual Studio Code. Para ejecutarlas necesitás un JDK 11
+o posterior y las extensiones recomendadas para Java.
 
 ## Cómo ejecutar
 
-1. Abrí `TrabajosPracticos.sln` en Visual Studio 2022.
-2. En el Explorador de soluciones, hacé clic derecho sobre el ejercicio y elegí **Establecer como proyecto de inicio**.
-3. Presioná **Ctrl+F5** para ejecutar y ver el resultado en la consola.
+1. En Visual Studio Code, abrí la carpeta raíz del repositorio con **Archivo → Abrir carpeta**.
+2. Si VS Code te ofrece instalar las extensiones recomendadas, instalalas.
+3. Abrí **Ejecutar y depurar** con **Ctrl+Shift+D** y elegí el ejercicio de la lista.
+4. Presioná **Ctrl+F5** para ejecutarlo. El resultado aparece en la terminal integrada.
 
-Cada proyecto contiene su propio `Program.cs` y un archivo por clase.
+En `src`, cada ejercicio tiene su propio paquete con un `Main.java` y un archivo por clase.
 
 ## Ejercicios
 
