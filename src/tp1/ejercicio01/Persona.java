@@ -1,6 +1,8 @@
 package tp1.ejercicio01;
 
-class Persona {
+class  Persona {
+
     public String nombre;
     public int edad;
+
 }

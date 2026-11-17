@@ -1,6 +1,7 @@
 package tp2.ejercicio02;
 
 class Auto extends Vehiculo {
+
     private int cantPuertas;
 
     public Auto(String marca, String modelo, int cantPuertas) {
@@ -8,20 +9,21 @@ class Auto extends Vehiculo {
         setCantPuertas(cantPuertas);
     }
 
-    public int getCantPuertas() {
+    public int getCantPuertas()  {
         return cantPuertas;
     }
 
     public void setCantPuertas(int cantPuertas) {
         if (cantPuertas <= 0) {
-            throw new IllegalArgumentException("La cantidad de puertas debe ser mayor a cero.");
+            throw new IllegalArgumentException("tiene que tener al menos una puerta");
         }
         this.cantPuertas = cantPuertas;
     }
 
-    public void mostrarDatos() {
-        System.out.println("Marca: " + getMarca());
-        System.out.println("Modelo: " + getModelo());
-        System.out.println("Cantidad de puertas: " + getCantPuertas());
+
+    public void mostrarDatos()  {
+        System.out.println("marca " + getMarca());
+        System.out.println("el modelo es " + getModelo());
+        System.out.println("puertas: " + getCantPuertas());
     }
 }

@@ -1,11 +1,12 @@
 package tp2.ejercicio03;
 
-class Perro extends Animal {
+class Perro extends Animal  {
+
     private String raza;
 
     public Perro(String nombre, int edad, String raza) {
         super(nombre, edad);
-        this.raza = raza;
+         this.raza = raza;
     }
 
     public String getRaza() {
@@ -16,7 +17,9 @@ class Perro extends Animal {
         this.raza = raza;
     }
 
-    public void ladrar() {
+
+    public void ladrar()  {
         System.out.println("el perro está ladrando");
     }
+
 }

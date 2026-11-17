@@ -3,8 +3,13 @@ package tp1.ejercicio05;
 public class Main {
     public static void main(String[] args) {
         Rectangulo rectangulo = new Rectangulo();
+        
         rectangulo.setBase(8);
         rectangulo.setAltura(4);
-        System.out.println("Área del rectángulo: " + rectangulo.calcularArea());
+        
+        System.out.println("el area es" + rectangulo.calcularArea());
     }
 }
+
+
+

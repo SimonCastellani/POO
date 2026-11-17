@@ -1,12 +1,13 @@
 package tp2.ejercicio02;
 
-class Vehiculo {
+class  Vehiculo {
+
     private String marca;
     private String modelo;
 
     public Vehiculo(String marca, String modelo) {
         this.marca = marca;
-        this.modelo = modelo;
+         this.modelo = modelo;
     }
 
     public String getMarca() {
@@ -17,11 +18,12 @@ class Vehiculo {
         this.marca = marca;
     }
 
+
     public String getModelo() {
         return modelo;
     }
 
-    public void setModelo(String modelo) {
+    public void setModelo(String modelo)  {
         this.modelo = modelo;
     }
 }

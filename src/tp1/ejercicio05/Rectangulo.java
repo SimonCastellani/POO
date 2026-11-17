@@ -1,6 +1,7 @@
-package tp1.ejercicio05;
-
+package tp1.ejercicio05; 
+  
 class Rectangulo {
+
     private double base;
     private double altura;
 
@@ -10,17 +11,19 @@ class Rectangulo {
 
     public void setBase(double base) {
         this.base = base;
-    }
-
+    } 
+   
     public double getAltura() {
         return altura;
     }
-
+ 
     public void setAltura(double altura) {
         this.altura = altura;
-    }
+    } 
 
-    public double calcularArea() {
+    public double calcularArea() {  
         return base * altura;
     }
+  
+
 }
