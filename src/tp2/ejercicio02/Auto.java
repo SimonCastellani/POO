@@ -7,11 +7,14 @@ class Auto extends Vehiculo {
     public Auto(String marca, String modelo, int cantPuertas) {
         super(marca, modelo);
         setCantPuertas(cantPuertas);
-    }
+    } 
 
     public int getCantPuertas()  {
-        return cantPuertas;
+        return cantPuertas;   
     }
+
+
+
 
     public void setCantPuertas(int cantPuertas) {
         if (cantPuertas <= 0) {
@@ -26,4 +29,11 @@ class Auto extends Vehiculo {
         System.out.println("el modelo es " + getModelo());
         System.out.println("puertas: " + getCantPuertas());
     }
+
+
 }
+
+
+
+
+ 
