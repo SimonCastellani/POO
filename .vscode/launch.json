@@ -70,6 +70,20 @@
       "request": "launch",
       "mainClass": "tp3.ejercicio02.Main",
       "console": "integratedTerminal"
+    },
+    {
+      "name": "TP4 · 1. Material digital",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "tp4.ejercicio01.Main",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "TP4 · 2. Medios de pago",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "tp4.ejercicio02.Main",
+      "console": "integratedTerminal"
     }
   ]
 }
